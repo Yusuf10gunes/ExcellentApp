@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExcellentApp.MainPage">
+
+    <StackLayout >
+        <Label Text="Photo Gallery" Margin="20"/>
+        <Image Source="https://www.pexels.com/tr-tr/fotograf/kent-kentsel-sehirler-catilar-18684565/"/>
+        <StackLayout Orientation="Vertical" Spacing="20" Padding="15,0">
+            <Button Text="Like"/>
+            <Button Text="Comment"/>
+            <Button Text="Share"/>
+            <StackLayout Orientation="Horizontal">
+                <BoxView HeightRequest="1" Color="DarkRed"/>
+                <Label Text="150 Likes" FontAttributes="Bold"/>
+                <Label Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
